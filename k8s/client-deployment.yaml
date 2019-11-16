@@ -15,7 +15,5 @@ spec:
       containers:
       - name: client-deployment
         image: shawkani/multi-client
-        resources:
-          limits:
         ports:
         - containerPort: 3000
